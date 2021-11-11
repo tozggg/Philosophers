@@ -9,11 +9,11 @@
 			"type": "cppdbg",
 			"request": "launch",
 			"program": "${fileDirname}/${fileBasenameNoExtension}",
-			"args": ["5", "200", "200", "200", "5"],
+			"args": ["5", "800", "200", "200", "3"],
 			"stopAtEntry": false,
 			"cwd": "${fileDirname}",
 			"environment": [],
-			"externalConsole": false,
+			"externalConsole": true,
 			"MIMode": "lldb",
 			"preLaunchTask": "C/C++: gcc 활성 파일 빌드"
 		}
