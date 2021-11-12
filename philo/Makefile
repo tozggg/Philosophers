@@ -6,7 +6,7 @@
 #    By: taejkim <taejkim@student.42seoul.kr>       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/11/12 19:01:29 by taejkim           #+#    #+#              #
-#    Updated: 2021/11/12 19:30:25 by taejkim          ###   ########.fr        #
+#    Updated: 2021/11/12 19:31:18 by taejkim          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,7 @@ CC = gcc
 CFLAGS = -Wall -Werror -Wextra
 RM = rm -f
 
-SRC = main.c action.c monitor.c init.c uils.c
+SRC = main.c action.c monitor.c init.c util.c
 OBJ = $(SRC:.c=.o)
 
 all: $(NAME)
